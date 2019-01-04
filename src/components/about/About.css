@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Roboto');
+
+.madSkrilla{
+    font-size: 2.5em;
+    margin: 0  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    position: sticky;
+    top: 0;
+}
+
+.first{
+    width: 100vw;
+    height: 90vh;
+    align-self: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: thin;
+    /* z-index: -1; */
+}
+
+.first img{
+    object-fit: cover;
+    width: 86vw;
+    height: 88vh;
+    opacity: 0.8;
+    filter: grayscale(40%);
+    /* position: fixed; */
+    /* z-index: 0; */
+    
+    margin: 0 auto;
+    align-self: auto;
+    padding: 20px;
+}
+
+.createUser{
+max-width: 800px;
+max-height: 300px;
+border-radius: 1.5%;
+display: flex;
+align-content: center;
+align-items: center;
+margin: 4px 50px;
+padding: 4px;
+/* z-index: 0; */
+position: fixed;
+color: white;
+font-size: 2.5em;
+flex-wrap: wrap;
+}
+
+.createUser a{
+text-decoration: none;
+font-size: 2.5em;
+color: rgb(70, 69, 69);
+text-align: center;
+align-content: center;
+font-family:  Fixed, monospace;
+ margin: 0 auto;
+ }
+
+.divider{
+    width: 100vw;
+    /* z-index: 2; */
+    background: #fcf8f7;
+    opacity: .99999;
+    min-height: 100vh;
+}
+
+.antherContainer{
+    display: flex;
+	flex-direction: row;
+	
+	justify-content: center;
+	align-items: center;
+	
+    width: 70%;
+    height: 90vh;
+    margin: 0 auto;
+    /* z-index: 3; */
+    text-decoration: none;
+}
+
+.landingpagecontainer{
+    background-color: rgb(151, 215, 240, 0.5);
+    width: 85vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/* align-items: center; */
+    align-content: stretch;
+    align-self: auto;
+    border-radius: 8%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.225em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* z-index: 3; */
+}
+
+/* .landingpagecontainer a{
+    text-decoration: none;
+    color: black;
+    /* font-size: 1.1em; */
+    /* font-family: Arial, Helvetica, sans-serif;
+} */ 
+
+.containImg{
+    object-fit: contain;
+    max-width: 375px;
+    max-height: 400px;
+    margin: 75px;
+    overflow: hidden;
+}
+
+.containText{
+    text-decoration: none;
+    object-fit: none;
+    max-width: 375px;
+    max-height: 400px;
+    margin: 75px;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutMad{
+font-size: 1.5em;
+margin: 0  auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+font-family: 'Comfortaa', cursive;
+text-align: center;
+min-width: 100vw;
+min-height: 5vh;
+background: #fcf8f7;
+/* z-index: 3; */
+}
+
+.myAbout{
+    margin: auto;
+    display: flex;
+    background: #fcf8f7;
+    opacity: .99999;
+    font-size: .5em;
+    max-width: 75vw;
+    text-align: center;
+    /* z-index: 4; */
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.imageSizing {
+    object-fit: cover;
+    min-width: 50vw;
+    min-height: 50vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.imageSizing img{
+    object-fit: cover;
+    width: 50vw;
+    height: 50vh;
+    /* margin: 5px; */
+}
+
+/* @Media(max-width: ){} */
