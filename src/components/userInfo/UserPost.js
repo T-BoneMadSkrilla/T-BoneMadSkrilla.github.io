@@ -15,7 +15,7 @@ class UserPost extends Component{
               return (
                   <div>
                       <br></br>
-                    <form class="form-style-9" action="mailto:tylereftink@gmail.com" method="GET">
+                    <form class="form-style-9" action="mailto://tylereftink@gmail.com" method="GET">
                       <p>Hey, potential client! You should email us with your information and how many shirts you want.</p>
                         <ul>
                             <li>
