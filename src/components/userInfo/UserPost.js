@@ -10,13 +10,13 @@ class UserPost extends Component{
     //what are the colors of shirts
     //how many colors does your design need? or send us a url of your design
 
-          
+          //change that doesn't do anything
             render() {
               return (
                   <div>
                       <br></br>
                     <form class="form-style-9" action="mailto:tylereftink@gmail.com" method="GET">
-                      <p>Hey, potential client! You should email us with your information and how many shirts and shit you want.</p>
+                      <p>Hey, potential client! You should email us with your information and how many shirts you want.</p>
                         <ul>
                             <li>
                                 <input type="text" name="subject" class="field-style field-full align-none" placeholder="Subject" />

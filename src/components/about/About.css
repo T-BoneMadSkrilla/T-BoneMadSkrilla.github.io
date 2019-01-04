@@ -103,12 +103,7 @@ font-family:  Fixed, monospace;
     /* z-index: 3; */
 }
 
-/* .landingpagecontainer a{
-    text-decoration: none;
-    color: black;
-    /* font-size: 1.1em; */
-    /* font-family: Arial, Helvetica, sans-serif;
-} */ 
+
 
 .containImg{
     object-fit: contain;
@@ -138,7 +133,7 @@ align-items: center;
 align-content: center;
 font-family: 'Comfortaa', cursive;
 text-align: center;
-min-width: 100vw;
+max-width: 98vw;
 min-height: 5vh;
 background: #fcf8f7;
 /* z-index: 3; */
@@ -161,8 +156,8 @@ flex-wrap: wrap;
 
 .imageSizing {
     object-fit: cover;
-    min-width: 50vw;
-    min-height: 50vh;
+    min-width: 49vw;
+    min-height: 49vh;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -174,8 +169,8 @@ flex-wrap: wrap;
 
 .imageSizing img{
     object-fit: cover;
-    width: 50vw;
-    height: 50vh;
+    min-width: 50vw;
+    max-height: 50vh;
     /* margin: 5px; */
 }
 
